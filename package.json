@@ -1,0 +1,19 @@
+{
+  "name": "brs-test-case-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web app for generating BRS-based test cases, RTM, and regression workbooks.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mammoth": "^1.9.0",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.77.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
